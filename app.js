@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    //card options
+    //Card options
     const cardArray = [
       {
         name: 'bird',
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   
-    //check for matches
+    //Check for matches
     function checkForMatch() {
       const cards = document.querySelectorAll('img')
       const optionOneId = cardsChosenId[0]
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   
-    //flip your card
+    //Flip your card
     function flipCard() {
       let cardId = this.getAttribute('data-id')
       cardsChosen.push(cardArray[cardId].name)
